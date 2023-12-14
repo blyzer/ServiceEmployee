@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePermissions.Api", "EmployeePermissions.Api\EmployeePermissions.Api.csproj", "{8388A91F-5A35-40ED-8B40-D41AE97F5F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePermissions.Domain", "EmployeePermissions.Domain\EmployeePermissions.Domain.csproj", "{C1134AD2-620D-42FF-B02F-B8071780BD93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePermissions.Infrastructure", "EmployeePermissions.Infrastructure\EmployeePermissions.Infrastructure.csproj", "{A850D41B-DE20-46C9-8BEA-ED49373341C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePermissions.Application", "EmployeePermissions.Application\EmployeePermissions.Application.csproj", "{ECB3D68E-3F33-4663-B92C-4F3CA7731A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePermissions.Tests", "EmployeePermissions.Tests\EmployeePermissions.Tests.csproj", "{AE89D49B-112F-4F91-A9EF-A8FD14948FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceEmployee.KafkaConsumerWorker", "ServiceEmployee.KafkaConsumerWorker\ServiceEmployee.KafkaConsumerWorker.csproj", "{C90A2693-1F3D-44CF-9686-F9588313A3B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8388A91F-5A35-40ED-8B40-D41AE97F5F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8388A91F-5A35-40ED-8B40-D41AE97F5F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8388A91F-5A35-40ED-8B40-D41AE97F5F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8388A91F-5A35-40ED-8B40-D41AE97F5F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1134AD2-620D-42FF-B02F-B8071780BD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1134AD2-620D-42FF-B02F-B8071780BD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1134AD2-620D-42FF-B02F-B8071780BD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1134AD2-620D-42FF-B02F-B8071780BD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A850D41B-DE20-46C9-8BEA-ED49373341C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A850D41B-DE20-46C9-8BEA-ED49373341C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A850D41B-DE20-46C9-8BEA-ED49373341C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A850D41B-DE20-46C9-8BEA-ED49373341C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB3D68E-3F33-4663-B92C-4F3CA7731A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB3D68E-3F33-4663-B92C-4F3CA7731A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB3D68E-3F33-4663-B92C-4F3CA7731A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB3D68E-3F33-4663-B92C-4F3CA7731A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE89D49B-112F-4F91-A9EF-A8FD14948FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE89D49B-112F-4F91-A9EF-A8FD14948FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE89D49B-112F-4F91-A9EF-A8FD14948FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE89D49B-112F-4F91-A9EF-A8FD14948FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90A2693-1F3D-44CF-9686-F9588313A3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90A2693-1F3D-44CF-9686-F9588313A3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90A2693-1F3D-44CF-9686-F9588313A3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90A2693-1F3D-44CF-9686-F9588313A3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
